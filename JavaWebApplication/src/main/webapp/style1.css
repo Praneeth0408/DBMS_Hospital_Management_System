@@ -1,0 +1,100 @@
+@charset "ISO-8859-1";
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+html{
+	height:100%;	
+}
+body{
+    background-image: url("https://image.freepik.com/free-photo/blur-hospital_1203-7972.jpg") ;
+    width:100%;
+    height:100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+    
+    
+}
+h2{
+    
+        text-align: center;
+        color:rgba(50,50,50);
+        border:1px solid #fff transparent;
+        padding: 50px;
+        transition: 0.8s ease;
+        text-shadow: 4px 4px 6px rgba(150,150,150);
+}
+form{
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    text-align: left;
+    color:black;
+    text-shadow: 1px 1px 2px rgba(120,120,120);
+    
+
+}
+input[type=text],[type=password],[type=date],select{
+    width: 30%;
+    background-color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: 0.8s ease;
+}
+input[type=submit]{
+    width: 10%;
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; 
+    transition: 0.8s ease;
+}
+
+input[type=submit]:hover {
+    background-color: rgba(255,255,255,0.9);
+    color:black;
+  }
+
+  ul{
+    font-size: 20px;
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    text-shadow: 1px 1px 2px rgba(120,120,120);
+    padding: 5px 20px;
+    border: 1px solid #fff transparent;
+    border-radius: 50px;
+    transition: 0.8s ease;
+}
+
+ul li a:hover{
+    background-color: rgba(150,150,150);
+    color: white;
+}
+
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
